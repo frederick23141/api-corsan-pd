@@ -18,6 +18,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Debug workspace
+        run: dir
+
       - name: Set up Java version
         uses: actions/setup-java@v4
         with:
@@ -63,4 +66,3 @@ jobs:
           app-name: 'App-service'
           slot-name: 'Production'
           package: '*.jar'
-          
