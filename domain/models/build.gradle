@@ -1,0 +1,9 @@
+apply plugin: 'org.springframework.boot'
+
+bootRun { enabled = false }
+bootJar { enabled = false }
+jar { enabled = true }
+
+dependencies {
+    implementation 'jakarta.validation:jakarta.validation-api:3.0.2'
+}

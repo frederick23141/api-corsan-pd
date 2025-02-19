@@ -1,0 +1,15 @@
+## Sqlserver database configuration
+sqlserver:
+  default_schema: ${SQLSERVER_DEFAULT_SCHEMA}
+  driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  url: ${SQLSERVER_URL}
+  user: ${SQLSERVER_USER_DB}
+  pass: ${SQLSERVER_PASS_DB}
+  dialect: org.hibernate.dialect.SQLServerDialect
+  hibernate:
+    show_sql: true
+    hbm2ddl:
+      auto: none
+
+cifradoInterceptorEnabled: false
+loginInterceptorEnabled: false

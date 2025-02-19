@@ -1,0 +1,19 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'api-corsan-pd'
+
+include ':models'
+include ':usecases'
+include ':driven-sqlserver'
+include ':entrypoints'
+
+project(':models').projectDir = file('./domain/models')
+project(':usecases').projectDir = file('./applications/usecases')
+project(':driven-sqlserver').projectDir = file('./infrastructure/driven-adapters/sqlserver-db')
+project(':entrypoints').projectDir = file('./infrastructure/entrypoints')
+
+

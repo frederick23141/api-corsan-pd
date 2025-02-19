@@ -1,0 +1,5 @@
+server:
+  servlet:
+    context-path: ${CONTEXT_PATH}
+  port: ${PORT}
+  address: ${HOST_SERVER_API}

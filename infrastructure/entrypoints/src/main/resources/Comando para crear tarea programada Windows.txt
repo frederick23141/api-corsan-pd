@@ -1,0 +1,5 @@
+schtasks /create /tn "IniciarAPICorsan" /tr "C:\Users\juan.londoño\IdeaProjects\api-corsan-pd\EjecutarJARApiCorsan.bat" /sc onstart /rl highest /f
+
+
+
+

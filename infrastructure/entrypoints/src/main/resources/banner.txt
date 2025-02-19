@@ -1,0 +1,14 @@
+
+${AnsiColor.BRIGHT_MAGENTA}
+ ,-----. ,-----. ,------.  ,---.   ,---.  ,--.  ,--.
+'  .--./'  .-.  '|  .--. ''   .-' /  O  \ |  ,'.|  |
+|  |    |  | |  ||  '--'.'`.  `-.|  .-.  ||  |' '  |
+'  '--'\'  '-'  '|  |\  \ .-'    |  | |  ||  | `   |
+ `-----' `-----' `--' '--'`-----'`--' `--'`--'  `--'
+App-Name: ${spring.application.name} :: App-Version: ${spring.application.version} :: Spring-Boot: ${spring-boot.version} :: Java-Version: ${spring.application.java}
+${AnsiColor.BRIGHT_MAGENTA}
+${AnsiColor.BRIGHT_GREEN}
+Copyright: El contenido de este repositorio de código fuente es para uso exclusivo de Corsan.
+Contiene información privilegiada que se encuentra protegida por las leyes de derechos de autor. ${AnsiColor.BRIGHT_GREEN}
+
+                                                                                ${AnsiColor.BLUE}   :: Powered by Corsan  S.A. :: ${AnsiColor.BLUE}
